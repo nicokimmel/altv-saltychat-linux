@@ -27,7 +27,7 @@ ln -s ../libs/chrome_elf.dll . &&
 ln -s ../libs/icudtl.dat . && 
 ln -s ../libs/libcef.dll . && 
 ln -s ../libs/snapshot_blob.bin . && 
-ln -s ../libs/v8_context_snapshot.bin . && 
+ln -s ../libs/v8_context_snapshot.bin .
 ```
 7. Now you can launch it again and the server browser should work.
 
