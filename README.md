@@ -52,3 +52,4 @@ WINEPREFIX="put_path_here" winetricks -q dotnet461
 15. Download ``Microsoft Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019`` (https://aka.ms/vs/16/release/vc_redist.x86.exe)
 16. Execute it inside the prefix. Can be done directly in Lutris with the "Launch EXE inside Wine-Prefix" option.
 17. TeamSpeak should now have the SaltyChat plugin installed.
+18. Set the theme to `windows` inside TeamSpeak so buttons are visible.
