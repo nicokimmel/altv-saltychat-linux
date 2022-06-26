@@ -12,7 +12,7 @@
 
  1. Download `Grand Theft Auto` from Lutris (https://lutris.net/games/grand-theft-auto-v/). I'm using the install script with the Rockstar Launcher in this guide.
  2. Install as mentioned in the Lutris script.
- 3. Download the newest `wine-ge` version. ProtonUp-Qt is the easiest way to get it (`lutris-GE-ProtonX-XX-x86_64`).
+ 3. Download the newest `wine-ge` version. ProtonUp-Qt is the easiest way to get it (`lutris-GE-Proton7-16-x86_64` at the time of writing).
  4. Select it as the wine version in Lutris.
  
 ## alt:V Installation
@@ -37,7 +37,7 @@ ln -s ../libs/v8_context_snapshot.bin .
 3. Select wine as the starter.
 4. In the game settings choose a path for your prefix (preferably in your Lutris folder) and select 32-Bit architecture.
 5. Select the TeamSpeak installation file as the executable (you don't have to move it anywhere, just keep it inside your downloads folder).
-6. Under starter options select system wine as the wine version (from the repository of your distribution). 
+6. Under starter options select latest `lutris-fshack` as the wine version (`lutris-fshack-7.2-x86_64` at the time of writing). 
 7. Also disable DXVK. This will prevent the SaltyChat window from being just a black screen.
 8. Press save and launch it. Install TeamSpeak as usual. Don't launch it after the installation.
 9. Click on "Wine-Configuration" and select `Windows 10` as the windows version. Press "OK".
