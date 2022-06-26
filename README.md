@@ -2,7 +2,7 @@
 
 ### Requirements
 
- - Grand Theft Auto account
+ - Grand Theft Auto 5 account
  - Lutris installed
  - Wine installed
  - Winetricks installed
