@@ -23,7 +23,7 @@
  5. Open a terminal and navigate to `$WINEPREFIX/path_to_altv/cef`.
  6. Create symlinks for the following files. You can copy and paste the whole block.
   ```Bash
-ln -s ../libs/chrome_elf.dll . &&
+ln -s ../libs/chrome_elf.dll . && 
 ln -s ../libs/icudtl.dat . && 
 ln -s ../libs/libcef.dll . && 
 ln -s ../libs/snapshot_blob.bin . && 
