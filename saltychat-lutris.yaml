@@ -46,6 +46,11 @@ script:
       executable: teamspeak_installer
       prefix: $GAMEDIR
       description: "Installing TeamSpeak 3 Client"
+  - move:
+      src: $GAMEDIR/drive_c/users/$USER/AppData/Roaming/TS3Client/plugins
+      dst: $GAMEDIR/drive_c/users/$USER/AppData/Roaming/TS3Client/plugins_default
+      description: "Rename default plugins folder"
   - extract:
       file: saltychat_plugin
       dst: $GAMEDIR/drive_c/users/$USER/AppData/Roaming/TS3Client/
+      description: "Extracting Salty Chat plugin"
