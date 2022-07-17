@@ -12,7 +12,7 @@
 
  1. Download `Grand Theft Auto` from Lutris (https://lutris.net/games/grand-theft-auto-v/). I'm using the install script with the Rockstar Launcher in this guide.
  2. Install as mentioned in the Lutris script.
- 3. Download the newest `wine-ge` version. ProtonUp-Qt is the easiest way to get it (`lutris-GE-Proton7-16-x86_64` at the time of writing).
+ 3. Download the newest `wine-ge` version. ProtonUp-Qt is the easiest way to get it (`lutris-GE-Proton7-20-x86_64` at the time of writing).
  4. Select it as the wine version in Lutris.
  
 ## alt:V Installation
@@ -25,7 +25,7 @@
   ```Bash
 ln -s ../libs/chrome_elf.dll . && 
 ln -s ../libs/icudtl.dat . && 
-ln -s ../libs/libcef.dll . && 
+ln -s ../libs/libce2.dll . && 
 ln -s ../libs/snapshot_blob.bin . && 
 ln -s ../libs/v8_context_snapshot.bin .
 ```
