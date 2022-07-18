@@ -32,6 +32,9 @@ ln -s ../libs/v8_context_snapshot.bin .
 7. Now you can launch it again and the server browser should work.
 
 ## TeamSpeak 3 and SaltyChat Installation
+
+#### (Consider using the Lutris install script. Will do the exactly the same steps as listed here.)
+
 1. Download the `32-bit Teamspeak 3 Client` (https://www.teamspeak.com/en/downloads/).
 2. Create a new prefix in Lutris.
 3. Select wine as the starter.
