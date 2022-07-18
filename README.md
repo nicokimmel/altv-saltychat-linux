@@ -33,7 +33,7 @@ ln -s ../libs/v8_context_snapshot.bin .
 
 ## TeamSpeak 3 and SaltyChat Installation
 
-#### (Consider using the Lutris install script. Will do the exactly the same steps as listed here.)
+#### (Consider using the Lutris install script. Will do exactly the same steps as listed here.)
 
 1. Download the `32-bit Teamspeak 3 Client` (https://www.teamspeak.com/en/downloads/).
 2. Create a new prefix in Lutris.
